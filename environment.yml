@@ -1,0 +1,10 @@
+name: audio-book-generator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - gtts==2.3.2
+    - typing==3.7.4.3
+    - numpy==1.21.6
