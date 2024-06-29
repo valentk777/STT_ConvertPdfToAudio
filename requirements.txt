@@ -1,4 +1,1 @@
-gtts==2.3.2
-typing==3.7.4.3
-numpy==1.24.4
-pyttsx3==3.2.90
+#pyttsx3==3.2.90

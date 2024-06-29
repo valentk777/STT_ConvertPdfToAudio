@@ -1,13 +1,13 @@
 from os import path
 from typing import List
 
+from source.file_services.file_service_base import FileServiceBase
 from source.logging_utils import get_logger
-from source.services.file_service import FileService
 
 logger = get_logger()
 
 
-class TxtService(FileService):
+class TxtService(FileServiceBase):
     @staticmethod
     def read(file_path: str) -> str:
         logger.info("Started")
